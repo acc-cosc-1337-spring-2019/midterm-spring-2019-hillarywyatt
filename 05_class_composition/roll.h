@@ -1,4 +1,6 @@
 //Roll class interface 
+#ifndef ROLL_H
+#define ROLL_H
 #include "die.h"
 #include <string>
 
@@ -22,3 +24,5 @@ private:
 	bool natural();
 
 };
+
+#endif //!ROLL_H

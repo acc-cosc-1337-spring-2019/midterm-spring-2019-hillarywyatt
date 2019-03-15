@@ -6,7 +6,8 @@ public function roll that returns an int
 
 private int sides with a value of 6
 */
-
+#ifndef DIE_H
+#define DIE_H
 
 class Die
 {
@@ -18,3 +19,5 @@ private:
 	int roll_value;
 	int sides{ 6 };
 };
+
+#endif //! DIE_H

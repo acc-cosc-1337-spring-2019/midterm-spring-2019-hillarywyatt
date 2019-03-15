@@ -17,5 +17,18 @@ int main()
 
 	std::vector <Roll>  rolls;
 
+	int i;
+	for (i = 0; i < 20; ++i)
+	{
+		Roll roll(Die& d1, Die& d2);
+		roll();
+
+		std::cout << "First die :" << value_1(); << "\n|";
+		std::cin >>
+		std::cout << "First die :" << value_2(); << "\n|";
+		std::cin>> 
+
+	}
+
 	
 }

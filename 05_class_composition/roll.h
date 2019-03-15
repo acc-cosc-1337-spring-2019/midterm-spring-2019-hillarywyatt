@@ -5,7 +5,7 @@
 class Roll
 {
 public:
-	Roll(Die& d1, Die& d2);
+	Roll (Die& d1, Die& d2);
 	void roll();
 	std::string result();
 	int value_1();

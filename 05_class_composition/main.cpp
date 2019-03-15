@@ -6,8 +6,16 @@ output rolled values, and add to vector.
 
 Loop through vector of Roll and output roll result
 */
+#include "die.h"
+#include "roll.h"
+#include<vector>
+
 int main() 
 {
+	Die die1;
+	Die die2;
+
+	std::vector <Roll>  rolls;
+
 	
-	return 0;
 }
